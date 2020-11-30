@@ -8,6 +8,22 @@
     "type": "git",
     "url": "https://github.com/petermuessig/ui5-ecosystem-showcase.git"
   },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "dependencies": {
     "@ui5/fs": "^1.1.2",
     "@ui5/logger": "^2.0.0",
@@ -16,5 +32,11 @@
   },
   "ui5": {
     "dependencies": []
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.0",
+    "standard-version": "^9.0.0"
   }
 }
