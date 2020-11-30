@@ -1,6 +1,6 @@
 {
   "name": "ui5-task-mvn-dependency-provider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "task for ui5-tooling to provide maven dependencies",
   "author": "Simon Coen, Volker Buzek",
   "license": "Apache-2.0",
