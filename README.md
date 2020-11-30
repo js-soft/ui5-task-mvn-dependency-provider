@@ -14,7 +14,8 @@ Task for [ui5-builder](https://github.com/SAP/ui5-builder). Provides maven depen
 
 ## Install
 
-```banpm install ui5-task-mvn-dependency-provider --save-dev
+```bash
+npm install ui5-task-mvn-dependency-provider --save-dev
 ```
 
 ## Configuration options (in `$yourapp/ui5.yaml`)
