@@ -2,6 +2,7 @@
 
 Task for [ui5-builder](https://github.com/SAP/ui5-builder). Provides maven dependencies for UI5 applications.
 
+![npm](https://img.shields.io/npm/v/ui5-task-mvn-dependency-provider)
 ## Mandatory Requirements
 
 -   [maven](https://maven.apache.org) installed
